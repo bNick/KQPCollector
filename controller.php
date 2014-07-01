@@ -9,8 +9,8 @@ class KQPCollector extends SCpro
 {
   private $copyrights;
   public function __construct($type=''){
-    if(class_exists('Copyrights')){
-        $this->copyrights = new Copyrights();
+    if(class_exists('KQPCModel')){
+        $this->copyrights = new KQPCModel();
     }else{
         die('Cannot find model to Copyright plugin!');
     }
