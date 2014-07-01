@@ -5,7 +5,7 @@ if(is_file(__DIR__ . '/model.php')){
 }
 
 ########################################
-class KQPCollector extends SCpro
+class KQPositionCollector extends SCpro
 {
   private $copyrights;
   public function __construct($type=''){
