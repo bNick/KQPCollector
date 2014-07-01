@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<note>
+    <name>Позиции ключевых запросов</name>
+    <module_name>KQPositionCollector</module_name>
+    <description>Модуль сбора позиций ключевых запросов</description>
+    <version>0.1</version>
+    <path>KQPCollector/</path>
+    <onSite>0</onSite>
+    <onAdmin>1</onAdmin>
+</note>
